@@ -1,0 +1,12 @@
+@media (max-width:425px) {
+
+    .backvei{
+        width: 396px;
+        height: 561px;
+        overflow: hidden;
+        position: absolute;
+    }
+    ul{
+        display:none;
+    }
+}
