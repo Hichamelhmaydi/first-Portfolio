@@ -300,3 +300,30 @@ h2{
     color: #FC4100;
     text-shadow: 2px 2px #FFC55A;
 }
+.man{
+    width: 29em;
+    height: 16em;
+    background-color:#FC4100;
+    border-radius:2em;
+}
+.man img{
+    width: 20em;
+    height: 14em;
+    margin: -1em 0em 0em 5em;
+    border-radius: 3em 3em 0 0;
+}
+.man span{
+    margin:1em 0 0 13em;
+    font-family: "Nunito", sans-serif;
+}
+.Temoignages p{
+    margin:3em 0 0 0 ;
+    font-family: "Nunito", sans-serif;
+}
+footer{
+    background-color: #00215E;
+}
+footer p{
+   padding: 1em 0em 0em 27em;    
+   color: #FFC55A;
+}
