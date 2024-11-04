@@ -6,7 +6,163 @@
         overflow: hidden;
         position: absolute;
     }
+    #butt{
+        cursor: pointer;
+        display:inline;
+        background-color: #FC4100;
+        border:none;
+        height:100%;
+    }
+    .nav button img{
+        display:inline;
+        width:2em;
+    }
+    .burger-content ol li {
+        list-style:none;
+        padding:3em;
+    }
+    .burger-content ol li a {
+        text-decoration:none;
+        color: aliceblue;
+        
+    }
+    .burger-content{
+        display:hidden;
+        height:20em;
+        background-color:#FC4100;
+        text-align: center;
+    }
+
     ul{
         display:none;
+    }
+    h1{
+        margin-top:5em;
+        font-size:2em;
+        z-index:0;
+}
+    h2{
+        font-size:1em;
+    }
+    .profil img{
+        width:150px;
+        height:100px;
+        margin:22em 1em 1em 8em;
+        border-radius: 50px 0 50px 0;
+    }
+    .profil img:hover{
+        width:150px;
+        height:100px;
+    }
+    .Introduction{
+        display:block;
+    }
+    .description h3{
+        font-size:2em;
+        margin: 0em 0em 0em 0.5em;
+        text-align:center;
+    }
+    .description h4{
+        font-size:1em;
+        margin: -5em 0em 0em 0.5em;
+    }
+    .objictif{
+        display:block;
+    }
+    .projects h2{
+      font-size:2em;
+    }
+    .project1 img{
+        margin:1em;
+    }
+    .project2 img{
+        margin:1em;
+    }
+    .project3 img{
+        margin:1em;
+    }
+    .projects img:hover{
+        opacity:1;
+    }
+    .img-trois-pro2{
+        position: relative;
+        bottom: 0em;
+        left: 0em;
+        cursor: pointer;
+    }
+    .img-trois-pro3{
+        position: relative;
+        bottom: 0em;
+        left: 0em;
+        cursor: pointer;
+    }
+    .line{
+        width:20em;
+        margin-left:0;
+    }
+    .com-tem{
+        display:block;
+    }
+    .Competences h3{
+        font-size:2em;
+        text-align:center;
+    }
+    .Competences img:hover{
+        margin:30px;
+        width:100px;
+        height:100px;
+        background-color: rgb(163, 161, 158);
+        border-radius:1em;
+
+    }
+    .js{
+        position: relative;
+        left: 7em;
+    }
+    .Temoignages h3{
+        font-size:2em;
+        text-align:center;
+    }
+    .man{
+        width: 20em;
+        height: 10em;
+        background-color:#FC4100;
+        border-radius:2em;
+    }
+    .man img{
+        width: 10em;
+        height: 8em;
+        margin: -1em 0em 0em 5em;
+        border-radius: 3em 3em 0 0;
+    }
+    .man span{
+        margin-left:6em;
+        font-family: "Nunito", sans-serif;
+    }
+    .Temoignages p{
+        width: 18em;
+        margin-left: 2em;
+        font-family: "Nunito", sans-serif;
+    }
+    .form-cont{
+        display:block;
+        border-radius:0em;
+    }
+    .info {
+        margin:0em -10em 0em 1em;
+    
+    }
+    .my-info img{
+        width:3em;
+        height:3em;
+        margin:1em 0em -1em -9em;
+    }
+    footer p{
+        padding: 1em 0em 0em 9em;    
+        color: #FFC55A;
+     }
+     .social-med{
+        margin-left: 9em;
+        width: 10em;
     }
 }

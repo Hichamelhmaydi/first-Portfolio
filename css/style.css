@@ -18,8 +18,18 @@
     display:flex;
     justify-content: space-between;
 }
+#butt{
+    display: none;
+}
+#burger-content-id{
+    display:none;
+}
+.nav img{
+    display:none;
+    width:2em;
+}
 .logo img{
-    width: 4em;
+    width: 2em;
     height: 2em;
     padding: 3px 50px ;
     position: absolute;
@@ -60,7 +70,7 @@ h2{
 .profil img{
     width:300px;
     height:200px;
-    margin:21em 0 0 7em;
+    margin:12em 0 0 7em;
     border-radius: 129px 0 129px 0;
 }
 .profil img:hover{
@@ -77,7 +87,7 @@ h2{
     font-family: "Pacifico", cursive;
     color: #FC4100;
     text-shadow: 2px 2px #FFC55A;
-    margin: 19em 0em -9em 25em;
+    margin:10em 0em -9em 25em;
 }
 .description h4{
     width:300px;
@@ -103,8 +113,8 @@ h2{
     
 }
 .projects img:hover{
-    opacity:0.5;
-    transition:0.5s;
+     
+    transform: scale(1.1);
 }
 .project1{
     display: grid;
@@ -170,6 +180,7 @@ h2{
     margin-left:1em;
     color: #FC4100;
 }
+
 .project3 span img {
     width:3em;
 }
@@ -197,7 +208,7 @@ h2{
 }
 .form-cont{
     margin-top:1em;
-    border-radius:2em;
+    border-radius:2em 2em 0 0;
     background-color:#FC4100;
     display:grid;
     grid-template-columns:1fr 1fr;
@@ -243,7 +254,7 @@ h2{
 .my-info img{
     width:3em;
     height:3em;
-    margin:2em 0em 0em -8em;
+    margin:2em 0em -1em -9em;
 }
 .my-info h3{
     margin-top:1em;
