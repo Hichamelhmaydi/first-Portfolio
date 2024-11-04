@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Sofia&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -39,17 +40,17 @@
             <li><a href="#">Competences</a></li>
             <li><a href="#">Contact</a></li>
         </ol>
-    </div>
-       <h1>Hicham El Hmaydi</h1>
+    </div >
+       <h1 >Hicham El Hmaydi</h1>
        <br>
-       <h2>Développeur Web Full-Stack</h2>
+       <h2 >Développeur Web Full-Stack</h2>
     </header>
     <main>
         <section class="Introduction">
-            <div class="profil">
-                <img src="/assets/profil.jpg" alt="profil">
+            <div class="profil" data-aos="fade-up">
+                <img src="/assets/profil.jpg" >
             </div>
-            <div class="description">
+            <div class="description" data-aos="fade-left">
                 <h3>description :</h3>
                 <h4>
                     Je m'appelle Hicham. J'ai 20 ans et je suis apprenant en Youcode. J'ai une passion pour la technologie et j'aime tout le numérique. Mon plus grand objectif est de devenir  développeur full-stack web
@@ -58,7 +59,7 @@
         </section>
         <section class="projects">
             <h2>Mes Projets :</h2>
-            <div class="project1">
+            <div class="project1" data-aos="fade-up">
                 <p>
                     <span><img src="/assets/one.png" alt="one"></span> <br> c'est un projet d'un site qui nomme creative studio et pour moi je fait des modification sur ce site 
                 </p>
@@ -68,7 +69,7 @@
                 </div>
             </div>
             <div class="line"><hr></div>
-            <div class="project2">
+            <div class="project2" data-aos="fade-up">
                 <p>
                     <span><img src="/assets/two.png" alt="one"></span> <br> c'est un projet d'un site qui nomme eventick et par ce site tu peut reserve pour les
                  et dans ce projet je utilise : </p>
@@ -79,7 +80,7 @@
                 </div>
             </div>
             <div class="line"><hr></div>
-            <div class="project3">
+            <div class="project3" data-aos="fade-up">
                 <p>
                     <span><img src="/assets/three.png" alt="one"></span> <br> c'est un projet d'un site qui nomme eventick et par ce site tu peut reserve pour les 
                 </p>
@@ -92,7 +93,7 @@
             <div class="line"><hr></div>
         </section>
         <section class="com-tem">
-            <div class="Competences">
+            <div class="Competences" data-aos="fade-up">
                 <h3>mes Competences</h3><br>
                 <img src="/assets/html-5.png" alt="html">
                 <img src="/assets/css-3.png" alt="css">
@@ -100,7 +101,7 @@
                 <img src="/assets/tailwind.png" alt="tailwind">
                 <img src="/assets/js.png" alt="js" class="js">
             </div>
-            <div class="Temoignages">
+            <div class="Temoignages" data-aos="fade-up">
                 <h3>Temoignages</h3><br>
                 <div class="man">
                     <img src="/assets/man.jpg" alt="man">
@@ -111,7 +112,7 @@
             </div>
         </section>
         <section class="contact">
-         <div class="form-cont">
+         <div class="form-cont" data-aos="fade-up">
                 <form>
                     <h3>Contact-nous</h3>
                     <input type="text" placeholder="Votre Nom">
@@ -120,7 +121,7 @@
                     <input type="text" placeholder="Votre message ...." ><br>
                     <button type="submit">Submit</button>
                 </form> 
-             <div class="my-info">
+             <div class="my-info" data-aos="fade-up">
                     <h3>Mon-information</h3>
                     <img src="/assets/phone.png" alt="phone"><span class="info">07 74 69 63 70</span>
                     <br>
@@ -138,5 +139,9 @@
          </div>
     </footer>
     <script src="/js/java.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
