@@ -8,8 +8,9 @@
     height: 33em;
     overflow: hidden;
     position: absolute;
-    margin:0px;
     z-index:-1;
+    opacity:0.9;
+
 }
 .navbar{
     height:2.5em;
@@ -37,20 +38,29 @@ ul li a:hover{
     color: rgb(135, 135, 135);
     text-decoration:none;
 }
-h1,h2{
-   
+h1{
         font-family: "Pacifico", cursive;
         font-weight: 400;
         font-style: normal;
         color: #FC4100;
         text-align: center;
-        margin-top:2em;
+        margin-top:1em;
         text-shadow: 2px 2px #FFC55A;
+        font-size:6em;
+}
+h2{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #FC4100;
+    text-align: center;
+    text-shadow: 2px 2px #FFC55A;
+    font-size:3em;
 }
 .profil img{
     width:300px;
     height:200px;
-    margin:7em 0 0 7em;
+    margin:21em 0 0 7em;
     border-radius: 129px 0 129px 0;
 }
 .profil img:hover{
@@ -67,12 +77,12 @@ h1,h2{
     font-family: "Pacifico", cursive;
     color: #FC4100;
     text-shadow: 2px 2px #FFC55A;
-    margin: 10em 0em -8em 13em;
+    margin: 19em 0em -9em 25em;
 }
 .description h4{
     width:300px;
     height:200px;
-    margin:0 0 0 11em;
+    margin:0 0 0 25em;
     font-family: "Nunito", sans-serif;
     color: #FC4100;
     text-shadow: 2px 2px #FFC55A;
@@ -91,4 +101,202 @@ h1,h2{
     color: #FC4100;
     text-shadow: 2px 2px #FFC55A;
     
+}
+.projects img:hover{
+    opacity:0.5;
+    transition:0.5s;
+}
+.project1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;   
+    margin-bottom:1em; 
+}
+.project1 p{
+    font-family: "Nunito", sans-serif;
+    margin-left:1em;
+    color: #FC4100;
+}
+.project1 span img {
+    width:3em;
+}
+.project1-img img{
+    width: 185px;
+    height: 158px;
+    margin-left:100px;
+    border-radius: 2em;
+    box-shadow: 0px 0px 7px 1px black;
+    cursor: pointer;
+
+}
+.line{
+    width: 37em;
+    margin-left: 19em;
+}
+
+
+.project2{
+    margin-top:1em;
+    margin-bottom:1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;    
+}
+.project2 p{
+    font-family: "Nunito", sans-serif;
+    margin-left:1em;
+    color: #FC4100;
+}
+.project2 span img {
+    width:3em;
+}
+.project2-img img{
+    width: 185px;
+    height: 158px;
+    margin-left:100px;
+    border-radius: 2em;
+    box-shadow: 0px 0px 7px 1px black;
+    cursor: pointer;
+
+}
+
+
+.project3{
+    margin-top:1em;
+    margin-bottom:1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;    
+}
+.project3 p{
+    font-family: "Nunito", sans-serif;
+    margin-left:1em;
+    color: #FC4100;
+}
+.project3 span img {
+    width:3em;
+}
+.project3-img img{
+    width: 185px;
+    height: 158px;
+    margin-left:100px;
+    border-radius: 2em;
+    box-shadow: 0px 0px 7px 1px black;
+    cursor: pointer;
+}
+.img-trois-pro2{
+    position: relative;
+    bottom: 2em;
+    left: 9em;
+    cursor: pointer;
+
+}
+.img-trois-pro3{
+    position: relative;
+    bottom: 2em;
+    left: 9em;
+    cursor: pointer;
+
+}
+.form-cont{
+    margin-top:1em;
+    border-radius:2em;
+    background-color:#FC4100;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    text-align:center; 
+}
+
+.form-cont input{
+    width:200px;
+    margin:2em;
+    outline:none;
+    height:3em;
+    background-color:#FFC55A;
+    border: none;
+    color: black;
+    border-radius:1em;
+}
+
+.form-cont input::placeholder{
+    color:black;
+}
+.form-cont button{
+    width:200px;
+    margin:2em;
+    outline:none;
+    height:3em;
+    background-color:#00215E;
+    border: none;
+    color: white;
+    border-radius:1em;
+    cursor: pointer;
+}
+.form-cont button:hover{
+   box-shadow:2px 3px  red;
+   transition:0.5s;
+}
+.form-cont button:active{
+    box-shadow:2px 3px  green;
+ }
+ form h3{
+    margin-top:1em;
+    font-family: "Nunito", sans-serif;
+ }
+.my-info img{
+    width:3em;
+    height:3em;
+    margin:2em 0em 0em -8em;
+}
+.my-info h3{
+    margin-top:1em;
+    font-family: "Nunito", sans-serif;
+}
+.info {
+    margin:0em -12em 0em 4em;
+    font-family: "Nunito", sans-serif;
+}
+.social-med{
+    margin-left: 27em;
+    width: 20em;
+}
+.social-med img{
+    width:3em;
+    height:3em;
+}
+.com-tem{
+    display:flex;
+    justify-content:space-around;
+}
+.Competences h3{
+    font-family: "Pacifico", cursive;
+    color: #FC4100;
+    text-shadow: 2px 2px #FFC55A;
+}
+.Competences{
+    display:grid;
+    grid-template-columns:1fr 1fr ;
+}
+.Competences img{
+   margin:30px;
+    width:100px;
+    height:100px;
+    background-color: rgb(163, 161, 158);
+    border-radius:1em;
+
+}
+.js{
+    position: relative;
+    left:4em;
+}
+.Competences img:hover{
+    margin:20px;
+     width:100px;
+     height:100px;
+     background-color: #FFC55A;
+     border-radius:1em;
+     transition:0.5s;
+ 
+ }
+.Temoignages h3 {
+    font-family: "Pacifico", cursive;
+    color: #FC4100;
+    text-shadow: 2px 2px #FFC55A;
 }
